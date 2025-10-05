@@ -1,10 +1,8 @@
 ---
-title: About
+title: About Me
 permalink: /about/
 layout: page
 ---
-
-# About Me
 
 ## Summary
 DevOps Engineer with 3 years of progressive, hands-on experience spanning DevOps, FinOps, automation, and cloud architecture. I began as a Junior DevOps Engineer, grew into a full DevOps Engineer role by taking ownership of infrastructure, automation pipelines, and cross-team enablement, and continue to expand my impact through cost optimization, secure architectures, and large-scale repository/platform migrations. I’m AZ-900, AZ-104, and AZ-400 (DevOps Engineer Expert) certified, with a strong focus on pragmatic automation, reliability, and developer experience. I also have a focus in FinOps and am FinOps certified
@@ -75,12 +73,14 @@ Started as a Junior DevOps Engineer (first 18 months), then advanced to DevOps E
 
 ## Education
 Uintah High School – High School Diploma (2016)
+Mentorship: 2-year DevOps apprenticeship under Senior DevOps Engineer KC Hansen
 
 ## What Drives Me
 I like solving messy infrastructure and workflow problems—turning ad hoc processes into automated, observable, and cost‑efficient systems. I’m motivated by empowering engineers with fast feedback loops, secure defaults, and clear documentation.
 
+## Find Me Online
+LinkedIn: [linkedin.com/in/adrianesmith88](https://www.linkedin.com/in/adrianesmith88)
+
 ## Let’s Connect
 Feel free to open an issue or connect via email: adriane.smith888@gmail.com
 
----
-*This page is generated with Jekyll and the Minima theme.*
