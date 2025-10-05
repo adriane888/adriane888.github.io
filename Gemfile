@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 4.3.3'
-gem 'minima', '~> 2.5'
+# Use GitHub Pages gem to match the build environment on GitHub
+gem 'github-pages', group: :jekyll_plugins
+
+# Optional: Add any extra plugins you want below (must be whitelisted by GitHub Pages)
+# gem 'jekyll-feed'
