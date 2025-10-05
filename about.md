@@ -73,7 +73,7 @@ Started as a Junior DevOps Engineer (first 18 months), then advanced to DevOps E
 
 ## Education
 - Uintah High School – High School Diploma (2016)
-- Mentorship: 2-year DevOps apprenticeship under Senior DevOps Engineer KC Hansen
+- Apprenticeship: 2-year DevOps apprenticeship under Senior DevOps Engineer KC Hansen
 
 ## What Drives Me
 I like solving messy infrastructure and workflow problems—turning ad hoc processes into automated, observable, and cost‑efficient systems. I’m motivated by empowering engineers with fast feedback loops, secure defaults, and clear documentation.
