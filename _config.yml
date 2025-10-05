@@ -1,0 +1,7 @@
+title: Different Error
+email: adriane.smith888@gmail.com
+description: >-
+  A blog about ...
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://adriane888.github.io"
+theme: minima
