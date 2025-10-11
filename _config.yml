@@ -12,3 +12,5 @@ navigation:
     url: "/resume/"
   - title: "Posts"
     url: "/posts/"
+  - title: "Categories"
+    url: "/categories/"

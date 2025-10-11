@@ -1,0 +1,43 @@
+---
+---
+{% comment %}
+Minimal category listing layout for minima.
+Usage: set `layout: category` and `category: Name` in a page's front matter.
+{% endcomment %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+    {% include head.html %}
+  </head>
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <h1>{{ page.title }}</h1>
+        {% assign cat = page.category %}
+        {% if cat %}
+          <ul class="post-list">
+            {% for post in site.posts %}
+              {% if post.categories contains cat %}
+                <li>
+                  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                  <h3>
+                    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                  </h3>
+                  {% if post.excerpt %}
+                    <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                  {% endif %}
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p>No category specified.</p>
+        {% endif %}
+      </div>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
