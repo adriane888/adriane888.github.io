@@ -5,3 +5,10 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adriane888.github.io"
 theme: minima
+navigation:
+  - title: "About Me"
+    url: "/about/"
+  - title: "Resume"
+    url: "/resume/"
+  - title: "Posts"
+    url: "/posts/"
