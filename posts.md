@@ -1,9 +1,5 @@
 ---
 title: Posts
-layout: home
+layout: posts
 permalink: /posts/
 ---
-
-# Posts
-
-Welcome to the posts index.
