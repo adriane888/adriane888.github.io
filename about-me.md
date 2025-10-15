@@ -1,6 +1,8 @@
+---
 title: About Me
 permalink: /about-me/
 layout: page
+---
 ![Profile photo](/assets/images/profile.jpg){: style="max-width:180px;border-radius:50%;margin:0 0 1rem;" }
 
 
