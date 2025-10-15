@@ -29,9 +29,12 @@ Custom posts index layout for minima.
         <nav class="site-nav" role="navigation">
           <span class="nav-trigger" aria-label="Menu">☰</span>
           <div class="trigger">
-            <a class="page-link" href="{{ '/about/' | relative_url }}">About</a>
-            <a class="page-link" href="{{ '/posts/' | relative_url }}">Posts</a>
-            <a class="page-link" href="{{ '/categories/' | relative_url }}">Categories</a>
+            {% for page_path in site.header_pages %}
+              {% assign p = site.pages | where: "path", page_path | first %}
+              {% if p %}
+                <a class="page-link" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+              {% endif %}
+            {% endfor %}
           </div>
         </nav>
       </div>
