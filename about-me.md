@@ -4,7 +4,6 @@ permalink: /about/
 layout: page
 ---
 
-## About Me
 Hi, I’m Adriane Smith—a DevOps Engineer focused on automation, reliability, and cost-aware cloud architectures. I enjoy enabling teams with strong CI/CD, infrastructure as code, and observability, while keeping security and FinOps front-and-center.
 
 ### What I value

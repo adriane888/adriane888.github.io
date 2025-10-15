@@ -4,8 +4,6 @@ layout: page
 permalink: /categories/
 ---
 
-# Categories
-
 Browse posts by topic:
 
 - [AI](/categories/ai/)
