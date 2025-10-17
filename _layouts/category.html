@@ -19,10 +19,11 @@ Usage: set `layout: category` and `category: Name` in a page's front matter.
         <nav class="site-nav" role="navigation">
           <span class="nav-trigger" aria-label="Menu">☰</span>
           <div class="trigger">
+            {% assign current = page.url %}
             {% for page_path in site.header_pages %}
               {% assign p = site.pages | where: "path", page_path | first %}
               {% if p %}
-                <a class="page-link" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+                <a class="page-link{% if current == p.url %} active{% endif %}" href="{{ p.url | relative_url }}">{{ p.title }}</a>
               {% endif %}
             {% endfor %}
           </div>
