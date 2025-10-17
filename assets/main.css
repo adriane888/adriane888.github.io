@@ -35,29 +35,26 @@ th { background: var(--bg-alt); }
 input, textarea { background: var(--bg-alt); color: var(--text); border:1px solid var(--border); }
 input:focus, textarea:focus { outline:1px solid var(--accent); }
 
-/* ---- Navigation contrast improvements ---- */
 header.site-header { background:#0f1724; border-bottom:1px solid #243041; box-shadow:0 2px 6px rgba(0,0,0,.6); }
 .site-title { font-weight:600; letter-spacing:.3px; }
-.site-nav .page-link { 
-  color:#cfd6dd; 
-  opacity:.85; 
-  padding:.55rem .9rem; 
-  display:inline-block; 
-  font-size:.95rem; 
-  transition:opacity .12s, color .12s, background-color .2s, border-color .2s; 
-  border-bottom:2px solid transparent; 
-  border-radius:4px; 
-  letter-spacing:.35px;
+.site-nav .page-link {
+  color:#ffffff;
+  padding:.6rem 1rem;
+  display:inline-block;
+  font-size:1rem;
+  font-weight:600;
+  transition:color .15s, background-color .15s, border-color .15s;
+  border-bottom:2px solid transparent;
+  letter-spacing:.4px;
 }
-.site-nav .page-link:hover { 
-  opacity:1; 
-  color:#58a6ff; 
-  background:rgba(88,166,255,0.08); 
+.site-nav .page-link:hover {
+  color:#58a6ff;
+  background:#182334;
   border-bottom-color:#58a6ff;
 }
-.site-nav .page-link.active { 
-  opacity:1; 
-  color:#d2a8ff; 
-  background:rgba(210,168,255,0.12); 
+.site-nav .page-link.active {
+  color:#d2a8ff;
+  background:#222e3f;
   border-bottom-color:#d2a8ff;
 }
+header.site-header { background:#0b1119; }
