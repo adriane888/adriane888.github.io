@@ -1,1 +1,1 @@
-This is the homepage of my Jekyll blog.
+Welcome to Different Error! This is a personal space for me, Adriane. Feel free to check out some recent posts below or find more information about me above. You can email me or message me on LinkedIn with any questions, book recommendations, or MTG deck ideas.

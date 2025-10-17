@@ -1,13 +1,14 @@
-title: Different Error
+title: Email
 email: adriane.smith888@gmail.com
 description: >-
-  A blog about ...me, Adriane Smith, a DevOps Engineer passionate about people first, technology second.
+  A blog about... me, Adriane Smith, a DevOps Engineer passionate about people first, technology second.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adriane888.github.io"
 theme: minima
+minima:
+  skin: dark
 header_pages:
   - about-me.md
-  - about.md
   - posts.md
   - categories.md
   - resume.md
