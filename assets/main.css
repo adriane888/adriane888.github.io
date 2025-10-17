@@ -12,7 +12,8 @@
   --code-bg: #1e2631;
 }
 
-body { background: var(--bg); color: var(--text); }
+/* version: v1-dark */
+body { background: var(--bg) !important; color: var(--text) !important; }
 header.site-header { background: var(--bg-alt); border-bottom:1px solid var(--border); box-shadow:0 2px 4px rgba(0,0,0,.4); }
 .site-title, .site-title:visited { color: var(--accent); }
 .site-nav a { color: var(--text); }

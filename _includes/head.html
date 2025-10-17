@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<!-- Custom head include overriding minima to force dark stylesheet load last -->
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title | escape }}{% if page.title %} | {% endif %}{{ site.title | escape }}</title>
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ '/assets/main.css?v=1' | relative_url }}" />
+</head>

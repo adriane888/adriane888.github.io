@@ -1,0 +1,47 @@
+---
+---
+// Dark theme overrides for Minima.
+// Define palette variables AFTER importing minima variables but BEFORE layout rules.
+// We import minima first, then override through explicit selectors because minima sets its own palette.
+@import "minima";
+
+// Core dark colors
+$dark-bg: #0d1117;
+$dark-bg-alt: #161b22;
+$dark-text: #e6edf3;
+$dark-link: #58a6ff;
+$dark-link-hover: #1f6feb;
+$dark-border: #30363d;
+$dark-accent: #d2a8ff;
+$dark-code-bg: #1e2631;
+
+body {
+  background: $dark-bg;
+  color: $dark-text;
+}
+
+header.site-header {
+  background: $dark-bg-alt;
+  border-bottom: 1px solid $dark-border;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+.site-title, .site-title:visited { color: $dark-accent; }
+.site-nav a { color: $dark-text; }
+.site-nav a:hover { color: $dark-link; }
+.post-title, .page-title { color: $dark-accent; }
+footer.site-footer { background: $dark-bg-alt; border-top: 1px solid $dark-border; }
+
+a { color: $dark-link; }
+a:hover { color: $dark-link-hover; text-decoration: underline; }
+code, pre { background: $dark-code-bg; color: #c9d1d9; border:1px solid $dark-border; }
+blockquote { background: $dark-bg-alt; border-left:4px solid $dark-accent; color:$dark-text; }
+hr { border:0; border-top:1px solid $dark-border; }
+img { border-radius:4px; }
+::selection { background:$dark-link-hover; color:#fff; }
+.tag, .button { background:$dark-bg-alt; border:1px solid $dark-border; color:$dark-text; padding:2px 8px; border-radius:4px; font-size:.85rem; }
+.tag:hover, .button:hover { background:$dark-link; color:#fff; border-color:$dark-link; }
+th, td { border:1px solid $dark-border; }
+th { background:$dark-bg-alt; }
+input, textarea { background:$dark-bg-alt; color:$dark-text; border:1px solid $dark-border; }
+input:focus, textarea:focus { outline:1px solid $dark-accent; }
