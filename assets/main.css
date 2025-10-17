@@ -1,0 +1,35 @@
+---
+---
+/* Dark theme overrides using CSS custom properties */
+:root {
+  --bg: #0d1117;
+  --bg-alt: #161b22;
+  --text: #e6edf3;
+  --link: #58a6ff;
+  --link-hover: #1f6feb;
+  --border: #30363d;
+  --accent: #d2a8ff;
+  --code-bg: #1e2631;
+}
+
+body { background: var(--bg); color: var(--text); }
+header.site-header { background: var(--bg-alt); border-bottom:1px solid var(--border); box-shadow:0 2px 4px rgba(0,0,0,.4); }
+.site-title, .site-title:visited { color: var(--accent); }
+.site-nav a { color: var(--text); }
+.site-nav a:hover { color: var(--link); }
+.post-title, .page-title { color: var(--accent); }
+footer.site-footer { background: var(--bg-alt); border-top:1px solid var(--border); }
+
+a { color: var(--link); }
+a:hover { color: var(--link-hover); text-decoration: underline; }
+code, pre { background: var(--code-bg); color:#c9d1d9; border:1px solid var(--border); }
+blockquote { background: var(--bg-alt); border-left:4px solid var(--accent); color: var(--text); }
+hr { border:0; border-top:1px solid var(--border); }
+img { border-radius:4px; }
+::selection { background: var(--link-hover); color:#fff; }
+.tag, .button { background: var(--bg-alt); border:1px solid var(--border); color:var(--text); padding:2px 8px; border-radius:4px; font-size:.85rem; }
+.tag:hover, .button:hover { background: var(--link); color:#fff; border-color: var(--link); }
+th, td { border:1px solid var(--border); }
+th { background: var(--bg-alt); }
+input, textarea { background: var(--bg-alt); color: var(--text); border:1px solid var(--border); }
+input:focus, textarea:focus { outline:1px solid var(--accent); }
